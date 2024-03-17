@@ -10,7 +10,7 @@ while True:
     QQ = input("Do you want to encrypt your message? ")
     if QQ.upper() == "NO":
         break
-    else:
+    elif QQ,upper() == "YES":
         initial_text = input("Enter the message you want to encrypt: ")
         encrypted_text = ""
 
@@ -43,4 +43,7 @@ while True:
                 break
             else:
                 continue
+        continue
+    else:
+        print("Invalid input")
         continue
